@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Menu</title>
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.6.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Scroll reveal CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style.css" />
+   
+  </head>
+  <body>
+    <section id="header">
+      <div class="header container">
+        <div class="navbar">
+          <div class="brand">
+            <a href="./index.html">
+              <h1><span>F</span>ood <span>X</span>press</h1>
+            </a>
+          </div>
+          <div class="menu_list">
+            <div class="hamburgar"><div class="bar"></div></div>
+            <ul>
+              <li><a href="/index.html" data-after="Home">Home</a></li>
+
+              <li><a href="./about.html" data-after="About">About</a></li>
+              <li><a href="./contact.html" data-after="Contact">Contact</a></li>
+              <li><a href="" data-after="Gallery">Gallery</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero" id="hero">
+      <div class="hero_conatiner">
+        <h2 class="sub-headline"><span class="first-letter">W</span>elcome</h2>
+        <h1 class="headline">Food Xpress</h1>
+        <div class="headline-desc">
+          <div class="separator">
+            <div class="line line-left"></div>
+            <div class="asterisk"><i class="fa fa-asterisk"></i></div>
+            <div class="line line-right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="products">
+      <div class="container bg-white">
+         <h1 class="text-center fs-1" id="entress"> Entress</h1>
+         
+          
+          <div class="card-group mt-5 mb-5 box shadow1">
+          
+              <div class="card  ">
+              
+                <img src="./img/sharma.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-1 animate__slow" alt="...">
+                <div class="card-body bg-light">
+                  <h1 class="card-title fs-1">Chicken Shawarma</h1>
+                  <p class="card-text fs-4">Chicken shawarma, Rice, salad, sauce.</p>
+                  <h2 class="card-text fs-1">Price: $19.99</h2>
+                 
+                </div>
+              </div>
+              <div class="card ">
+                <img src="img/wrap.jpg" class="card-img-top animate__animated animate__fadeInLeft animate__delay-2s animate__repeat-1 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">Shawarma Wrap</h1>
+                  <p class="card-text">Chicken, pita bread, salad, sauce.</p>
+                  <h2 class="card-text fs-1">Price: $9.99</h2>
+                  <!-- <input type="button" class=" text-white" value="+" id="plus">
+                  <input type="button" class="text-white" value="-" id="minus">
+                  <button class="mt-2 " id="cart" >Add To Cart</button> -->
+                </div>
+              </div>
+              <div class="card h-100  ">
+                <img src="img/tasty-chicken-shawarma-wrap-isolated-transparent-background_927015-1099.avif" class="card-img-top animate__animated animate__backInRight animate__delay-2s animate__repeat-2 animate__slow " alt="...">
+                <div class="card-body ms-2 ">
+                  <h1 class="card-title fs-1">Gyro Wrap</h1>
+                  <p class="card-text">Gyro, pita bread, salad, sauce.</p>
+                  <h2 class="card-text fs-1">Price: $10.99</h2>
+                  <!-- <p class="card-text"><del>Price: $249</del></p> -->
+                  <!-- <p class="card-text"> <strong>Discount Price</strong>: <strong><i>$199</i></strong></p> -->
+                  <!-- <input type="button" class=" text-white" value="+" id="plus">
+                  <input type="button" class="text-white" value="-" id="minus">
+                  <button class="mt-2" id="cart" >Add To Cart</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
+<!-- 
+          ..... -->
+          <div class="container bg-white">
+            <h1 class="text-center fs-1" id="burgers"> Sandwitches & Burgers </h1>
+            <h4 class="text-center fs-4">( Serve With Fries) </h4>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100  box shadow1">
+                <img src="img/spicy.png" class="card-img-top animate__animated animate__fadeInLeft animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">Sp[icy Chicken Sandwitch</h1>
+                  <p class="card-text">Grill Chicken,spicy sauce, Birochi Bun, lettuce,Tomatto, Cheese</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $12.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">Crispy Chicken Sandwitch</h1>
+                  <p class="card-text">Crispy Chicken,sauce, Birochi Bun, lettuce,Tomatto, Cheese</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $12.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow5">
+                
+                <img src="img/premium.jpg" class="card-img-top animate__animated animate__fadeInRight animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">Premium Burger</h1>
+                  <p class="card-text">Chicken,spicy sauce, Birochi Bun, lettuce,Tomatto, Cheese</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $12.99</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+          <!-- ....... -->
+
+          <div class="container bg-white ">
+            <h1 class="text-center mt-5 fs-1" id="wings"> Wings </h1>
+            <h4 class="text-center fs-4">( Serve With Fries) </h4>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card h-100  box shadow1">
+                <img src="img/wings.png" class="card-img-top animate__animated animate__fadeInLeft animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">6 pices Wings</h1>
+                  <p class="card-text">Flavour: BBQ , Hot, Buffelo</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $10.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/20_Traditional_Wings___Fries.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">12 pices Wings</h1>
+                  <p class="card-text">Flavour: BBQ , Hot, Buffelo</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $18.99</h2>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+
+
+          <!-- ..........kids...... -->
+          <div class="container bg-white mt-5">
+            <h1 class="text-center fs-1" id="kids"> Kid's Menu </h1>
+            <h4 class="text-center fs-4">( Serve With Fries) </h4>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card h-100  box shadow1">
+                <img src="img/ngt-removebg-preview.png" class="card-img-top animate__animated animate__fadeInLeft animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">Chicken Nuggests</h1>
+                  <p class="card-text">6 pices</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $7.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/pc-tenders-removebg-preview.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title fs-1">House Made Chicken Tenders</h1>
+                  <p class="card-text">3 pices</p>
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $9.99</h2>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          </div>
+
+          <!-- ......kids end.... -->
+
+          <!-- .......drinks..... -->
+
+          <div class="container bg-white my-5 fs-1">
+            <h1 class="text-center fs-1" id="Bevarage"> Bevarage </h1>
+           
+
+          <div class="row row-cols-1 row-cols-md-6 g-4">
+            <div class="col">
+              <div class="card h-100  box shadow1">
+                <img src="img/spicy.png" class="card-img-top animate__animated animate__fadeInLeft animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Coke</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted fs-1">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Diet Coke</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Sprite</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Orange Fanta</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Lemonade </h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Dr Pepper </h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Root Beer</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Pepsi </h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Sierre Mist </h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2 ">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow " alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Diet Pepsi</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                
+                <img src="img/premium.jpg" class="card-img-top animate__animated animate__fadeInRight animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title">Coke Zero</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $1.99</h2>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 box shadow2">
+                <img src="img/crispy.png" class="card-img-top animate__animated animate__backInDown animate__delay-2s animate__repeat-2 animate__slow" alt="...">
+                <div class="card-body">
+                  <h1 class="card-title"> Mango Lassi</h1>
+                  
+                </div>
+                <div class="card-footer">
+                  <h2 class="text-muted">Price: $3.99</h2>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- ......drinks ends..... -->
+          
+
+
+    <footer>
+      <div class="conatiner">
+        <div class="back-to-top">
+          <a href="#hero"><i class="fa fa-chevron-up"></i></a>
+        </div>
+        <div class="footer-content">
+          <div class="footer-content-about animate-top">
+            <h4>About Halal Food Xpress</h4>
+            <div class="asterisk"><i class="fa fa-asterisk"></i></div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+              soluta officiis dolorem officia facilis ea, modi iure amet ipsam
+              natus expedita, vero provident ad minima quo eos similique!
+              Voluptatum, voluptas?
+            </p>
+          </div>
+          <div class="footer-content-divider animate-bottom">
+            <div class="social-media">
+              <h4>Follow Along</h4>
+              <ul class="social-icons">
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+             <!-- ..................... -->
+
+            
+             <!-- ................... -->
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
